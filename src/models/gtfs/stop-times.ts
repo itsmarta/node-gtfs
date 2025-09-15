@@ -53,6 +53,10 @@ export const stopTimes = {
       type: 'time',
     },
     {
+      name: 'end_pickup_drop_off_window',
+      type: 'time',
+    },
+    {
       name: 'pickup_type',
       type: 'integer',
       min: 0,
@@ -98,6 +102,22 @@ export const stopTimes = {
       type: 'text',
       prefix: true,
       index: true,
+    },
+    {
+      name: 'mean_duration_factor',
+      type: 'real',
+    },
+    {
+      name: 'mean_duration_offset',
+      type: 'real',
+    },
+    {
+      name: 'safe_duration_factor',
+      type: 'real',
+    },
+    {
+      name: 'safe_duration_offset',
+      type: 'real',
     },
   ],
 };
