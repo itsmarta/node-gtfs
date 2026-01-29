@@ -1158,6 +1158,16 @@ declare const trips: {
         prefix?: undefined;
         primary?: undefined;
         nocase?: undefined;
+    } | {
+        name: string;
+        type: string;
+        required?: undefined;
+        index?: undefined;
+        prefix?: undefined;
+        primary?: undefined;
+        nocase?: undefined;
+        min?: undefined;
+        max?: undefined;
     })[];
 };
 

@@ -1350,22 +1350,6 @@ var stopTimes = {
       type: "text",
       prefix: true,
       index: true
-    },
-    {
-      name: "mean_duration_factor",
-      type: "real"
-    },
-    {
-      name: "mean_duration_offset",
-      type: "real"
-    },
-    {
-      name: "safe_duration_factor",
-      type: "real"
-    },
-    {
-      name: "safe_duration_offset",
-      type: "real"
     }
   ]
 };
@@ -1664,6 +1648,22 @@ var trips = {
       type: "integer",
       min: 0,
       max: 2
+    },
+    {
+      name: "mean_duration_factor",
+      type: "real"
+    },
+    {
+      name: "mean_duration_offset",
+      type: "real"
+    },
+    {
+      name: "safe_duration_factor",
+      type: "real"
+    },
+    {
+      name: "safe_duration_offset",
+      type: "real"
     }
   ]
 };
